@@ -186,12 +186,12 @@ web:
     # #    cpu: 250m
     # #    memory: 900Mi
 
-    limits:
-       cpu: 1
-       memory: 4500Mi
-    requests: 
-       cpu: 500m
-       memory: 4500Mi
+    #limits:
+    #   cpu: 1
+    #   memory: 4500Mi
+    #requests: 
+    #   cpu: 500m
+    #   memory: 4500Mi
 
     
 
@@ -347,12 +347,12 @@ scheduler:
     # #    memory: 256Mi
     # #    cpu: 250m
 
-    limits:
-       cpu: 1
-       memory: 4Gi
-    requests:
-       memory: 1Gi
-       cpu: 500m
+    #limits:
+    #   cpu: 1
+    #   memory: 4Gi
+    #requests:
+    #   memory: 1Gi
+    #   cpu: 500m
 
 
   ## Custom Liveness probe
